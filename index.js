@@ -3,8 +3,6 @@
 const app = require('./src/app')
 const mongoose = require('mongoose')
 
-
-
 const port = process.env.PORT || 3000
 
 mongoose.connect('mongodb://localhost:27017/shop', (err, res) => {
