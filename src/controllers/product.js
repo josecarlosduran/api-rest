@@ -1,6 +1,6 @@
 'use strict'
 
-const Product = require('../../models/product')
+const Product = require('../models/product')
 
 function getAllProducts(req, res) {
     Product.find({}, (err, products) => {
