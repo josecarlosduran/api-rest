@@ -3,7 +3,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 
-const productControllers = require('./controllers/product')
+const productControllers = require('./product/controllers/api')
 
 const app = express()
 
